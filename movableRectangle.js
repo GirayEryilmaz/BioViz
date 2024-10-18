@@ -406,7 +406,7 @@ function checkMembership(data, ontology,result){
 
 function drawInitialChromosomeLayout() {
     //read in the csv
-    d3.csv("master.csv", function(data) {
+    d3.csv("/www/master.csv", function(data) {
     // d3.csv("https://studentweb.uvic.ca/~ltrinity/data/master.csv", function(data) {
         //here is the original variable used to categorize subset
         var i;
